@@ -1,3 +1,6 @@
+#!/usr/bin/env ruby
+Dir["../helpers/*.rb"].each { |file| require file }
+
 puts 'Executing Euler Solutions by Thomas Nadin (nadinengland@gmail.com)'
 
 # Handy little method to execute a ruby script with arguments

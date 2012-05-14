@@ -24,14 +24,4 @@ def fibonacci_sequence limit
   relevant_range.map { |n| fibonacci[n] }
 end
 
-class Array
-  def even
-    self.find_all { |n| n % 2 == 0 }
-  end
-
-  def sum
-    self.inject { |sum, n| sum + n }
-  end
-end
-
 fibonacci_sequence(4_000_000).even.sum
